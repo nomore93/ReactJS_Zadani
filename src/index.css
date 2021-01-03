@@ -1,13 +1,69 @@
+
+@font-face{font-family:Lato;font-style:normal;font-weight: 300;src: local("Lato Light");}
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  margin: 100;
+  /*font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  -moz-osx-font-smoothing: grayscale;*/
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+    
+}
+
+
+
+h1 {
+  font-size: 4.5em;
+  font-weight: normal;
+  text-align: center;
+  color:thistle;
+  font-family: Arial;
+  text-shadow: 20px 20px 1px #0a294b;
+}
+
+h1,h2{
+  text-shadow: 3px 3px 7px #666666;
+
+}
+form{
+  text-align: center;
+  font-size: large;
+}
+
+input{
+  font-size: large;
+}
+.customer{
+  width: 1px;
+  border: 5px solid transparent;
+  color: aliceblue;
+  font-size: medium;
+}
+.ctrl{
+  border: 10px solid transparent;
+  /*width: 1000px;*/
+  text-align:justify ;
+  
+}
+/* a{
+ border: 200px solid transparent;
+  padding: 0;
+  width: 100px;
+  text-align: justify;
+}*/
+li{
+  border: 1px solid transparent;
+  width: 1px;
+}
+body{
+  font-family: Verdana;
+  font-size: 14px;
+  background: url(/src/textur.png);
+ 
+ /* background: url('C:\Users\LU2\projects\react-to-dudes\src/texture.png')#bb641c;*/
 }
