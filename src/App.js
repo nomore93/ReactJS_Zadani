@@ -42,16 +42,14 @@ class App extends React.Component{
 
   listofcustomers = () => {
     return this.state.customers.map(customer => ( /* map se používá místo eachfor */
-      <li key={customer.id} className="customer">
-        
-       
+      <li key={customer.id}href="# " className="customer">      
 
-        <article className="">
+        <article className="" >
           {customer.name}
           <br />{customer.surname}
-          <a className="ctrl" onClick={() => this.removeCustomer(customer)}>
+          <button className="ctrl" onClick={() => this.removeCustomer(customer)}>
           odebrat
-          </a>
+          </button>
           </article>
           </li>))
   }
@@ -86,7 +84,7 @@ class App extends React.Component{
    }
 
   handleSubmit = event =>{    
-   if ( event.key === 'Enter'){
+   if ( event.key === 'Enter' && this.state.newName && this.state.newSurname){
     this.setState(state =>{
       const newCustomer = {
         id: Math.max(...state.customers.map(d =>d.id)) +1,/*hledání nejvyššího ID, pak rozprostření pole */

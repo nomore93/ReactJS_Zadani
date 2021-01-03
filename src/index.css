@@ -38,6 +38,11 @@ form{
 input{
   font-size: large;
 }
+
+button{
+  font-size: 0.7em;
+  color: #0a294b;
+}
 .customer{
   width: 1px;
   border: 5px solid transparent;
@@ -47,15 +52,9 @@ input{
 .ctrl{
   border: 10px solid transparent;
   /*width: 1000px;*/
-  text-align:justify ;
-  
+  text-align:justify;  
 }
-/* a{
- border: 200px solid transparent;
-  padding: 0;
-  width: 100px;
-  text-align: justify;
-}*/
+
 li{
   border: 1px solid transparent;
   width: 1px;
