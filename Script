@@ -1,0 +1,6 @@
+Stáhněte si můj kód
+poté zapněte příkazový řádek(cmd)
+v něm zadejte příkaz docker images
+následuje příkaz docker run reactelinkx
+po tomto příkazu se nastartuje server a vy máte možnost z labelu "Local:" zkopírovat danou adresu a vložit do prohlížeče, kde už bude čekat formulář se zákazníky.
+Do daného formuláře lze uložit nové zákazníky nebo je odebrat.
